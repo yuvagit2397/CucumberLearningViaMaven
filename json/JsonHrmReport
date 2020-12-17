@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-09T05:11:40.196Z",
+        "line": 2,
+        "name": "verifying correct login credentials",
+        "description": "",
+        "id": "hrm-hrmdatatablewithheader;verifying-correct-login-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19123000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "you are on orangehrm login page",
+            "match": {
+              "location": "stepDefinitions.HrmDataTableWithHeaderDef.you_are_on_orangehrm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 442000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "you enters orangehrm username and password",
+            "match": {
+              "location": "stepDefinitions.HrmDataTableWithHeaderDef.you_enters_orangehrm_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Admin",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6152000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "you clicks orangehrm login button",
+            "match": {
+              "location": "stepDefinitions.HrmDataTableWithHeaderDef.you_clicks_orangehrm_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "HRM HRMDataTableWithHeader",
+    "description": "",
+    "id": "hrm-hrmdatatablewithheader",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/HRMDataTableWithHeader.feature",
+    "tags": []
+  }
+]
